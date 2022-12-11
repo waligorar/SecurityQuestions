@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace SecurityQuestions.BusinessLogic;
 
-public class SecQue
+public class SecQue : ISecQue
 {
     private static readonly string[] Questions = new[]
 {
