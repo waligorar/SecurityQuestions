@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SecurityQuestions.Model;
 
-public class Answer : IEquatable<Answer>
+public class Answer : IEquatable<Answer>, IAnswer
 {
     public int Id { get; set; }
     public string Response { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SecurityQuestions.Model;
 
-public class User
+public class User : IUser
 {
     public String Name { get; set; }
     public List<Answer> Answers { get; set; }
@@ -24,6 +24,6 @@ public class User
             returnString = returnString + "answer: " + anAnswer;
         }
 
-        return returnString;   
+        return returnString;
     }
 }
